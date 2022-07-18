@@ -1,7 +1,10 @@
-<# MS Teams Security & Compliance Search
-author: Doug Metz https://github.com/dwmetz
-Note this script requires previous installation of the ExchangeOnlineManagement PowerShell module
+<# MS-TeamsSearch.ps1    
+https://github.com/dwmetz/Axiom-PowerShell/blob/main/MS-TeamsSearch.ps1
+author: @dwmetz
+Function: MS Teams Security & Compliance Search
+Prerequisites: This script requires previous installation of the ExchangeOnlineManagement PowerShell module
 See https://docs.microsoft.com/en-us/powershell/exchange/connect-to-scc-powershell?view=exchange-ps for more information.#>
+
 [string]$user = Read-Host -Prompt 'Exchange Credentials'
 Connect-IPPSSession -UserPrincipalName $user
 [string]$name = Read-Host -Prompt 'Enter a name for the search'
