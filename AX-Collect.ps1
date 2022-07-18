@@ -1,5 +1,5 @@
 <# AX-Collect.ps1
-https://github.com/dwmetz/Axiom-PowerShell/AX-Collect.ps1
+https://github.com/dwmetz/Axiom-PowerShell/blob/main/AX-Collect.ps1
 Author: @dwmetz
 Function: This script enables investigator access to a users O365 mailbox.
 #>

@@ -1,5 +1,5 @@
 ﻿<# AX-YaraSync.ps1
-https://github.com/dwmetz/Axiom-PowerShell/AX-YaraSync.ps1
+https://github.com/dwmetz/Axiom-PowerShell/blob/main/AX-YaraSync.ps1
 Author: @dwmetz
 Function:
     Script to sync YARA updates from Reversing Labs Github, archive the existing YARA rules in Axiom, and update Axiom with the new rules.
