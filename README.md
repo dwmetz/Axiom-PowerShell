@@ -1,3 +1,4 @@
 # AXIOM-PowerShell
 
-PowerShell scripts to run along side Magnet Axiom
+PowerShell scripts to aid investigators when utilizing O365 and Magnet Axiom.
+
