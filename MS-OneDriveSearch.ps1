@@ -1,5 +1,5 @@
-﻿<# MS-SCC-OD.ps1
-https://github.com/dwmetz/Axiom-PowerShell/blob/main/MS-SCC-OD.ps1
+﻿<# MS-OneDriveSearch.ps1
+https://github.com/dwmetz/Axiom-PowerShell
 Function: This script will generate a Security and Compliance Search to capture OneDrive for a list of custodians.
 
 This PowerShell script will prompt you for the following information:
