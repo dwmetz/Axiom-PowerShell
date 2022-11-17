@@ -7,9 +7,10 @@ Function:
     Note this script requires previous installation of the ExchangeOnlineManagement PowerShell module
     See https://docs.microsoft.com/en-us/powershell/exchange/connect-to-scc-powershell?view=exchange-ps for more information.
     
+Updates:
     25.October.2022 - updated ExchangeOnlineManagement connection, Security & Compliance Center (IPPSSession)
     
-    #>
+#>
     Import-module ExchangeOnlineManagement
     Connect-ExchangeOnline
     [string]$aname = Read-Host -Prompt 'Enter your account name'
@@ -19,5 +20,5 @@ Function:
     new-compliancesearch -name $name -ExchangeLocation $email -ContentMatchQuery 'kind=microsoftteams','ItemClass=IPM.Note.Microsoft.Conversation','ItemClass=IPM.Note.Microsoft.Missed','ItemClass=IPM.Note.Microsoft.Conversation.Voice','ItemClass=IPM.Note.Microsoft.Missed.Voice','ItemClass=IPM.SkypeTeams.Message'
     Start-ComplianceSearch $name
     Get-ComplianceSearch $name
-    Write-Host "Search initiated"-ForegroundColor Blue
-    Write-Host "Proceed to https://protection.office.com/ to download the results."-ForegroundColor Blue
+    Write-Host "Search initiated."-ForegroundColor Cyan
+    Write-Host "Proceed to https://protection.office.com/ to download the results."-ForegroundColor Cyan
