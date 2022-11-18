@@ -8,6 +8,10 @@ PowerShell scripts to aid investigators when utilizing O365 and Magnet Axiom.
 
 -   AX-YaraSync.ps1 - Script to archive the existing YARA rules in Axiom, sync YARA updates from Reversing Labs Github, and then update Axiom with the new rules.
 
+-   MS-ExchangeGroupSearch.ps1 - Collect an O365 mailbox search for a group of custodians.
+
 -   MS-OneDriveSearch.ps1 - Script will generate a Security and Compliance Search to capture OneDrive for a list of custodians.
 
 -   MS-TeamsSearch.ps1 - Collect an O365 mailbox search for solely MS Teams communications.
+
+-   MS-TeamsGroupSearch.ps1 - Collect an O365 mailbox search for solely MS Teams communications for a group of custodians.
