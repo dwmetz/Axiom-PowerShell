@@ -16,7 +16,7 @@ This PowerShell script will prompt you for the following information:
 #>
 Import-module ExchangeOnlineManagement
 Import-Module Microsoft.Online.SharePoint.PowerShell
-Connect-SPOService -Credential $creds -Url https://magdev-admin.sharepoint.com -ModernAuth $true -AuthenticationUrl https://login.microsoftonline.com/organizations
+Connect-SPOService -Credential $creds -Url https://yoursite-admin.sharepoint.com -ModernAuth $true -AuthenticationUrl https://login.microsoftonline.com/organizations
 Connect-IPPSSession
 # Get other required information
 $script:inputfile = read-host "Enter the file name of the text file that contains the email addresses for the users you want to search"
