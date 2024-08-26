@@ -3,7 +3,7 @@
 PowerShell scripts to aid investigators when utilizing O365 and Magnet Axiom.
 
 -   AX-Collect.ps1 - This script enables investigator access to a users O365 mailbox.
-    Script shoud be run by Exchange Administrator to grant mailbox delegation permissions.
+    Script should be run by Exchange Administrator to grant mailbox delegation permissions.
     Once enabled, sign in using investigator credentials to perform the cloud collection in Axiom. 
 
 -   AX-YaraSync.ps1 - Script to archive the existing YARA rules in Axiom, sync YARA updates from Reversing Labs Github, and then update Axiom with the new rules.
